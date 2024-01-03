@@ -30,7 +30,8 @@
 <p>
 
 <h4> Step 1 After prerequisites have been installed, open IIS as an administrator and register PHP. </h4>
-<h5> Step 2 Install osTicket v1.15.8 by downloading osTicket, extracting and copying "upload" folder to c:\inetpub\wwwroot. From there, reload IIS. </h5>
+<h5> Step 2 Install osTicket v1.15.8
+- Extract and copy "upload" folder to c:\inetpub\wwwroot. Reload IIS. </h5>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
