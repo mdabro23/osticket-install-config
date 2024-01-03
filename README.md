@@ -15,7 +15,7 @@
 
 - Windows 10</b> (21H2)
 
-  <h3> Prerequisites Installed</h3>
+ <h3> Prerequisites Installed</h3>
 
 - Enable IIS
 - CGI and Common HTTP features 
