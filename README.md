@@ -28,9 +28,7 @@
 
 <p>
 Step 1
-</p>
-<p>
-1. After prerequisites have been installed, open IIS as an administrator and register PHP.
+After prerequisites have been installed, open IIS as an administrator and register PHP.
 </p>
 <br />
 
