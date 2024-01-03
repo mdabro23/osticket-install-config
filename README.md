@@ -17,14 +17,14 @@
 
   <h3> Prerequisites Installed</h3>
 
--Enable IIS
--CGI and Common HTTP features 
--IIS Management Console
--PHP Manager for IIS
--Rewrite Module
--PHP 7.3.8
--VC_redist.x86.exe
--MySQL 5.5.62
+- Enable IIS
+- CGI and Common HTTP features 
+- IIS Management Console
+- PHP Manager for IIS
+- Rewrite Module
+- PHP 7.3.8
+- VC_redist.x86.exe
+- MySQL 5.5.62
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
