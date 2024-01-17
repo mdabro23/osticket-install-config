@@ -29,17 +29,10 @@
 
 
 <p>
-
-<h4> Step 1: Create a virtual machine in Azure with Windows 10 and 4vCPUs.
- 
-<h4> Step 2: Open IIS as an administrator and register PHP. 
-
-<h3> Step 3: Install osTicket v1.15.8</h3>
-    <h5>- Extract and copy "upload" folder to c:\inetpub\wwwroot.
-    <h5>- Reload IIS. </h5>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Step 1: Create a virtual machine in Azure with Windows 10 and 4vCPUs
 </p>
 <br />
 
@@ -47,6 +40,15 @@
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 1: Create a virtual machine in Azure with Windows 10 and 4vCPUs.
+Step 2: Open IIS as an administrator and register PHP
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 3: Install OS Ticket by extracting and copying "upload" folder to c:\inetpub\wwwroot and reload IIS
+
 </p>
 <br />
