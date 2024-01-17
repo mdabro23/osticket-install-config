@@ -32,9 +32,9 @@
 
 <h4> Step 1: Create a virtual machine in Azure with Windows 10 and 4vCPUs.
  
-<h5> Step 2: Open IIS as an administrator and register PHP. 
+<h4> Step 2: Open IIS as an administrator and register PHP. 
 
-<h5> Step 2 Install osTicket v1.15.8
+<h4> Step 3: Install osTicket v1.15.8
  
 - Extract and copy "upload" folder to c:\inetpub\wwwroot.
 - Reload IIS. </h5>
