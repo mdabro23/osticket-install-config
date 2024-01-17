@@ -36,8 +36,8 @@
 
 <h4> Step 3: Install osTicket v1.15.8
  
-- Extract and copy "upload" folder to c:\inetpub\wwwroot.
-- Reload IIS. </h5>
+<h5>- Extract and copy "upload" folder to c:\inetpub\wwwroot.
+<h5>- Reload IIS. </h5>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
