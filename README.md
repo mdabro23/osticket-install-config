@@ -28,7 +28,8 @@
 - MySQL 5.5.62
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="587" alt="image" src="https://github.com/mdabro23/osticket-install-config/assets/148892244/984db0b0-802f-43e2-b57c-9f0fb0817193">
+/>
 </p>
 <p>
 Step 1: Open IIS as an administrator and register PHP from within IIS. Reload IIS.
