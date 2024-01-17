@@ -34,7 +34,7 @@
  
 <h4> Step 2: Open IIS as an administrator and register PHP. 
 
-<h4> Step 3: Install osTicket v1.15.8
+<h3> Step 3: Install osTicket v1.15.8</h3>
     <h5>- Extract and copy "upload" folder to c:\inetpub\wwwroot.
     <h5>- Reload IIS. </h5>
 </p>
