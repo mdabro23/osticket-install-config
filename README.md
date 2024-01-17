@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket Installation</h1>
-A walkthrough on how to install OS Ticket
+<h3></h3>A walkthrough on how to install OS Ticket
 
 <h2>Environments and Technologies Used</h2>
 
