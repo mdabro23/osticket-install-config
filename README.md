@@ -32,7 +32,7 @@
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 1: Create a virtual machine in Azure with Windows 10 and 4vCPUs
+Step 1: Create a Resource Group and a virtual machine in Azure with Windows 10 and 4vCPUs
 </p>
 <br />
 
