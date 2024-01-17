@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket Installation</h1>
-<h3></h3>A walkthrough on how to install OS Ticket
+<h3></h3>A walkthrough on how to install osticket
 
 <h2>Environments and Technologies Used</h2>
 
@@ -27,12 +27,11 @@
 - VC_redist.x86.exe
 - MySQL 5.5.62
 
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 1: Create a Resource Group and a virtual machine in Azure with Windows 10 and 4vCPUs
+Step 1: Open IIS as an administrator and register PHP from within IIS. Reload IIS.
 </p>
 <br />
 
@@ -40,7 +39,8 @@ Step 1: Create a Resource Group and a virtual machine in Azure with Windows 10 a
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2: Open IIS as an administrator and register PHP
+Step 2: Install OS Ticket version v1.15.8 by extracting and copying "upload" folder to c:\inetpub\wwwroot and reload IIS
+
 </p>
 <br />
 
@@ -48,7 +48,53 @@ Step 2: Open IIS as an administrator and register PHP
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 3: Install OS Ticket by extracting and copying "upload" folder to c:\inetpub\wwwroot and reload IIS
+Step 3: Go to sites -> Default -> osTicket and click "Browse*:80". To enable extensions, go back to IIS sites -> Default -> osTicket, double click PHP Manager, and click "enable or disable an extension". 
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 4: Assign permissions by going to ost.conifg.php, disable inheritance -> Remove All, and New Permissions -> Everyone -> All
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 5: Click "Continue", name the helpdesk, and setup a default email that recieves customers' emails
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 6: Install Heidi SQL by opening the file, create and connect to a new session, and create a database
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 7: Go to database, enter username and password, and click "install now"
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 8: To cleanup, delete C:\inetpub\wwwroot\osTicket\setup and set permissions to "read only"
+
 
 </p>
 <br />
